@@ -1,0 +1,95 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.contenido {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#zona1929 {
+    background-image: url('../images/logo\ 1929.png');
+}
+
+
+#zona1937 {
+    background-image: url('../images/logo\ 1937.png');
+}
+
+#zona1948 {
+    background-image: url('../images/logo\ 1948.jpg');
+}
+
+
+#zona1972 {
+    background-image: url('../images/logo\ 1972.jpg');
+}
+
+
+#zona1985 {
+    background-image: url('../images/logo\ 1985.jpg');
+}
+
+
+#zona2006 {
+    background-image: url('../images/logo\ 2006.jpg');
+}
+
+
+#zona2011 {
+    background-image: url('../images/logo\ 2011.png');
+}
+
+
+#zona2019 {
+    background-image: url('../images/logo\ 2019.jpg');
+}
+
+
+nav {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+ul a {
+    display: block;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    height: 40px;
+    border: 1px solid blue;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.4s ease;
+}
+
+
+ul a:hover {
+    background-color: blue;
+    color: white;
+    transform: translateX(10%);
+}
